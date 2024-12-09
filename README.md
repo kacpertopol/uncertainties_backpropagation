@@ -35,6 +35,10 @@ Please note that the script requires the user to supply additional
 programms to calculate the scalar function values, see **additional requirements**. 
 Additionally they require the fortran module `fs.f90` to be compiled, see **additional requirements**.
 
+# plot data
+
+Data for plots in publication [1] will be made available in the directory `plot_data` (TODO).
+
 # requirements
 
 The following additional python libraries are required:
