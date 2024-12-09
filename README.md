@@ -13,13 +13,11 @@ in:
 
 - `test_deuteron.py`. 
 
-This script uses the module `partial.py` which in turn requires the
-user to compile `fs.f90` into a python readable module with [f2py](https://numpy.org/doc/stable/f2py/).
-
 Details of the implementation are described in the publication [1]. Additional
 information is available after running the scripts with the  `--help` or `-h` option.
 
 Please note that the script requires the user to supply the `ff` programm, see **additional requirements**. 
+Additionally it requires the fortran module `fs.f90` to be compiled, see **additional requirements**.
 
 # scattering calculations
 
@@ -35,6 +33,7 @@ information is available after running the scripts with the  `--help` or `-h` op
 
 Please note that the script requires the user to supply additional
 programms to calculate the scalar function values, see **additional requirements**. 
+Additionally they require the fortran module `fs.f90` to be compiled, see **additional requirements**.
 
 # requirements
 
