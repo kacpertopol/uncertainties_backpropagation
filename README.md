@@ -37,7 +37,9 @@ Additionally they require the fortran module `fs.f90` to be compiled, see **addi
 
 # plot data
 
-Data for plots in publication [1] will be made available in the directory `plot_data` (TODO).
+Data for plots in publication [1] are available in the directory `plot_data`.
+The names of the files correspond to the plot number. The text files in this directory
+contain a description of the data in the first two lines beginning with `#`.
 
 # requirements
 
